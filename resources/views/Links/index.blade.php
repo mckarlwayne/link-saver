@@ -74,7 +74,7 @@
                                             }
                                         @endphp
 
-                                        <span class="text-xs font-semibold {{ $statusClass }} px-2 py-1 rounded-full">{{ $statusText }}</span>
+                                        <span class="text-xs font-semibold {{ $statusClass }} px-3 py-1.5 rounded-full whitespace-nowrap flex-shrink-0">{{ $statusText }}</span>
                                     </div>
 
                                     <p class="text-gray-600 text-sm mb-4 break-all">
